@@ -12,6 +12,9 @@ brew install pyenv
 brew install nvm
 brew install npm
 
+brew install stow
+stow --target ~/.config .
+
 # https://www.nerdfonts.com
 # unzip, select all, open with Fontbook and install
 
