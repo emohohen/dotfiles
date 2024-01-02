@@ -18,3 +18,8 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("vim-mappings")
 require("lazy").setup("plugins")
+
+require('which-key').register {
+    ['<leader>c'] = { name = '[C]ode', _ = 'which_key_ignore' },
+    ['<leader>d'] = { name = '[D]ocument', _ = 'which_key_ignore' },
+}
