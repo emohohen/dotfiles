@@ -12,6 +12,8 @@ brew install pyenv
 brew install nvm
 brew install npm
 
+brew install bat
+
 brew install stow
 stow --target ~/.config .
 
