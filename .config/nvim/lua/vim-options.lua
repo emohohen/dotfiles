@@ -17,8 +17,8 @@ vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 vim.o.expandtab = 4
 
--- vim.o.mouse = 'a'
-vim.o.mouse = ''
+vim.o.mouse = 'a'
+-- vim.o.mouse = ''
 
 vim.o.scrolloff = 8
 vim.o.signcolumn = 'yes'

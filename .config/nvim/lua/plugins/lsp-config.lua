@@ -22,11 +22,17 @@ return {
             local lspconfig = require("lspconfig")
 --            lspconfig.tsserver.setup({
 --               capabilites = capabilities,
---          })
+            --          })
             lspconfig.html.setup({
                 capabilites = capabilities,
             })
             lspconfig.lua_ls.setup({
+                capabilites = capabilities,
+            })
+            lspconfig.yamlls.setup({
+                capabilites = capabilities,
+            })
+            lspconfig.terraformls.setup({
                 capabilites = capabilities,
             })
 
